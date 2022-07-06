@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Proyecto Final
+        Por: Jhonnatan Javier Bonilla Marquez
+        Carrera: Software
+        Semestre: Noveno
+        Nota:
+        Agradezco el curso dictado, si bien conocia ciertos temas sobre html 
+        y css pude aprender mucho más y reforzar mis conocimientos. Para este proyecto
+        utilicé el framework Boostrap ya que me encuentro desarrollando mi tesis 
+        y necesitaba aprender a utilizarlo, me encontraba aprendiendo el
+        framework justo antes de que se de el curso por lo que aproveché para 
+        aplicarlo en el proyecto previo a utilizarlo en mi tesis. 
+        Tenía pensado terminar todos los tabs de la barra de navegación, pero 
+        por cuestiones educativas, y tratar de que sea responsive la mayoría de elementos
+        me faltó tiempo incluso para cambiar los Lorem Ipsum colocados;
+        sin embargo, fue una excelente manera de acentuar mis conocimientos adquiridos
+        sobre paginas web y agradezco infinitamente el curso, espero se puedan dar más ya que considero 
+        ayudan bastante en el aprendizaje de los alumnos y hacen mucha falta. Éxitos!!-->
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ICONO -->
+    <link rel="icon" href="/images/icon_book.png" />
+    <title>Mis Lecturas</title>
+    <!-- FUENTE -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS BOOSTRAP-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <!-- MI ESTILO CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="mb-2">
+      <div class="d-flex flex-row justify-content-center align-items-center">
+        <div class="membrete d-none d-sm-block"></div>
+        <div class="d-flex flex-column">
+          <object
+            data="/images/imagen.svg"
+            class="ms-2 justify-self-start"
+            height="50"
+          ></object>
+          <h1 class="text-center">MIS LECTURAS</h1>
+          <span class="align-bottom ms-2 text-center texto-secundario"
+            >por Jhonnatan Bonilla</span
+          >
+        </div>
+        <div class="membrete2 d-none d-sm-block"></div>
+      </div>
+    </header>
+    <hr class="mb-0" />
+    <!------------------------------------------- --------------------- NAVBAR -->
+    <nav class="nav nav-tabs justify-content-evenly sticky-top nav-color">
+      <a href="#inicio" class="nav-link p-2 active">Inicio</a>
+      <a href="#libros" class="nav-link p-2" data-toggle="tab">Libros</a>
+      <a href="#manga" class="nav-link p-2" data-toggle="tab">Manga</a>
+      <a href="#comics" class="nav-link p-2" data-toggle="tab">Comics</a>
+      <a href="#pendientes" class="nav-link p-2" data-toggle="tab"
+        >Pendientes</a
+      >
+    </nav>
+
+    <!-- --------------------------------------------------------------CONTENIDO -->
+    <div class="tab-content">
+      <!-- --------------------------------------------------------INICIO -->
+      <div class="tab-pane fade show active" id="inicio">
+        <div
+          id="bienvenida"
+          class="d-flex flex-row flex-wrap align-items-center bg-primario pt-4"
+        >
+          <h2 class="w-100 text-center text-white">Bienvenid@</h2>
+          <img
+            class="col-12 col-sm-6 inicio-desc"
+            src="/images/descripcion.jpg"
+            alt="Descripcion"
+          />
+          <p class="col-12 col-sm-6 p-3 descripcion">
+            Hola, esta página web tiene el fin de mostrar mi opinion sobre
+            varias obras que he leído a lo largo de mi vida. Considero me será
+            útil para exponer lo que me agrada o no, personajes interesantes, o
+            simplemente lo que me haya transmitido cada obra y el mensaje que me
+            queda. <br />
+            Entre los tipos de obras que he leído se destacan libros, manga, y
+            comics, no considero ningun formato mejor que otro, las disfruto por
+            igual y tengo mis favoritos en cada uno de ellos; además, tengo una
+            lista de pendientes de cada tipo por lo que tengo lectura para rato.
+          </p>
+        </div>
+        <div
+          class="d-flex flex-column align-items-center generos"
+          id="misgeneros"
+        >
+          <div class="pt-4">
+            <h2 class="text-center">Géneros</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+              veritatis sunt dolore explicabo saepe rerum cupiditate? Mollitia
+              possimus molestiae aliquam assumenda incidunt praesentium optio
+              beatae, reiciendis obcaecati dolorum? Ipsum, iusto. Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Eveniet, ab.
+            </p>
+          </div>
+          <div class="container-fluid row pt-0 mb-3">
+            <div class="col-12 col-sm-6">
+              <h3 class="text-center">Fantasia</h3>
+              <img src="/images/fantasia.jpg" alt="fantasía" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur eligendi accusamus doloribus tempore? Ipsam culpa quo
+                sint mollitia, exercitationem soluta, quas dolor adipisci
+                placeat sit omnis sunt, assumenda eius a Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Temporibus eligendi adipisci
+                quod aut impedit quasi odio eaque alias mollitia, iste earum
+                debitis possimus ut maiores atque iure officia cumque. Aliquid
+              </p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <h3 class="text-center">Realismo Mágico</h3>
+              <img src="/images/realismoMagico.jpg" alt="fantasía" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam quaerat sed saepe hic optio neque sequi, quos id,
+                recusandae earum quam minima veritatis. Aperiam, sapiente sint
+                repudiandae quis eveniet deleniti. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Molestiae quaerat corrupti
+                similique repellendus quod vero deleniti mollitia dolorum libero
+                asperiores, alias veritatis porro, non ipsam veniam totam vitae
+                facere laboriosam.
+              </p>
+            </div>
+
+            <div class="col-12 col-sm-6">
+              <h3 class="text-center">Terror</h3>
+              <img src="/images/horror.jpg" alt="fantasía" />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
+                officia mollitia, voluptas libero numquam labore autem doloribus
+                delectus quidem placeat cupiditate fugit? Cumque deleniti magnam
+                illum laborum, aspernatur aut eos. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Natus sint aliquam reiciendis est
+                nam dolorum eaque, voluptates quae incidunt repellat maiores
+                consequuntur, minima officiis consectetur dolorem quasi.
+                Placeat, velit ab.
+              </p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <h3 class="text-center">Seinen</h3>
+              <img src="/images/seinen.jfif" alt="fantasía" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                possimus est. Itaque dolor, labore accusamus, corrupti nobis,
+                quod repellendus provident officia culpa quasi eveniet atque
+                tempora quae eum nam aspernatur. Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Nihil tempore fuga veritatis
+                explicabo temporibus odio voluptate! Tempora veniam aliquam
+                eaque a maiores harum ex cumque fuga saepe exercitationem?
+                Voluptas, recusandae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------------- FOOTER -->
+    <footer>
+      <div class="fluid-container row">
+        <div class="col">
+          <h4>Redes Sociales</h4>
+          <a href="https://www.facebook.com/jhonnatan.bonillamarquez">
+            <img src="/images/icon_facebook.png" alt="facebook" width="50px" />
+          </a>
+          <a href="https://www.instagram.com/jhonnatanjb/">
+            <img src="/images/icon_instagram.png" alt="instagram" />
+          </a>
+        </div>
+        <div class="col justify-content-start">
+          <h4>Navegacion</h4>
+          <nav class="nav flex-column justify-content-start navfooter">
+            <a href="#">Inicio</a>
+            <a href="#bienvenida">Bienvenida</a>
+            <a href="#misgeneros">Generos</a>
+          </nav>
+        </div>
+        <div class="col">
+          <h4>Proyecto</h4>
+          <p class="p-3">
+            Proyecto desarrollado para el curso de diseño básico de HTML y CSS
+            dado en la FIE-ESPOCH; se utilizó además el framework Boostrap con
+            fines de aprendizaje.<br><i>bgPor: Jhonnatan Bonilla Software-ESPOCH</i>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Boostrap -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="" async defer></script>
+  </body>
+</html>

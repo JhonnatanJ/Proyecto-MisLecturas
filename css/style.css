@@ -1,0 +1,100 @@
+.bg-primario {background-color: #156893;}
+
+/* -------------------------------------------------TAGS */
+h1 {
+  margin-bottom: 0px;
+  margin-left: 1%;
+}
+
+hr {color: #156893;}
+
+/*------------------------------------------------- HEADER */
+
+header {
+  color: #156893;
+  font-family: "Montserrat", sans-serif;
+}
+
+.membrete {
+  margin-top: 0.5%;
+  width: 120px;
+  border-left: 35px solid transparent;
+  border-right: 120px solid #156893;
+  border-bottom: 30px solid #156893;
+  border-top: 30px solid #156893;
+}
+.membrete2 {
+  margin-top: 0.5%;
+  width: 120px;
+  border-left: 120px solid #156893;
+  border-right: 35px solid transparent;
+  border-bottom: 30px solid #156893;
+  border-top: 30px solid #156893;
+}
+
+/* ------------------------------------------------ FOOTER */
+
+footer {
+  padding: 5%;
+  align-items: evenly;
+  color: white;
+  background-color: #122f4a;
+  text-align: center;
+}
+
+footer a {text-decoration: none;}
+
+footer h4 {font-size: medium;}
+
+footer img {width: 30px;}
+
+.navfooter {background-color: #122f4a;}
+.navfooter a {
+  color: white;
+}
+
+footer p {
+  text-align: justify;
+  font-size: small;
+}
+
+/* ------------------------------------------- NAVBAR */
+
+.nav-color a {color: #156893;}
+
+nav {
+  background-color: white;
+}
+
+/*----------------------------------------------- INICIO */
+.descripcion {
+  text-align: justify;
+  color: white;
+  font-size: large;
+  -webkit-text-size-adjust: auto;
+}
+
+.generos div {
+  padding: 2%;
+  color: #156893;
+}
+.generos h3 {
+  background-color: #156893;
+  color: white;
+  margin-bottom: 0px;
+  padding: 2%;
+  text-decoration: solid;
+}
+.generos p {
+  margin-top: 4%;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: medium;
+  -webkit-text-size-adjust: auto;
+}
+.generos img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 40% 40%;
+}
